@@ -1,19 +1,18 @@
 <template>
   <div>
-      <div class="header  justify-content-center">
-        <h1>Aiyan Enterprise</h1>
-        <h4>
-          Aiyan Enterprise is an Export and Import oriented proprietorship organization. It imports food 
-          items mainly baby food,cosmetics items and various raw material and day to day usable items. Importing
-          countries are mainly from Chaina, Malaysia, Thailand, UAE, Middle East and UK.
-        </h4>
-        <h5>
-          We also export processed fish, vegetables and other consumable items to different countries.
-          Besides importing and exporting Aiyan Enterprise is supplying raw materials and construction items to
-          different companies in different locations of Bangladesh.
-        </h5>
-
-      </div>
+    <div class="header justify-content-center">
+      <h1>Aiyan Enterprise</h1>
+      <h4>
+        Aiyan Enterprise is an Export and Import oriented proprietorship organization. It imports food 
+        items mainly baby food,cosmetics items and various raw material and day to day usable items. Importing
+        countries are mainly from Chaina, Malaysia, Thailand, UAE, Middle East and UK.
+      </h4>
+      <h5>
+        We also export processed fish, vegetables and other consumable items to different countries.
+        Besides importing and exporting Aiyan Enterprise is supplying raw materials and construction items to
+        different companies in different locations of Bangladesh.
+      </h5>
+    </div>
   </div>
 </template>
 
@@ -21,11 +20,11 @@
 
 <script>
   export default {
-    
+    name: 'home-page'
   }
 </script>
 
-<style>
+<style scoped>
 
   .header {
     background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url('./assets/1202-min.jpg');
@@ -60,4 +59,5 @@
     letter-spacing: .08em;
     word-spacing: .2em;
   }
+
 </style>
