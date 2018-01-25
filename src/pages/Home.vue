@@ -28,7 +28,7 @@
 
   .header {
     background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url('../assets/1202-min.jpg');
-    height: calc(100vh - 112px);
+    min-height: calc(100vh - 112px);
     background-size: cover;
     color: #fff;
     display: flex;

@@ -23,13 +23,10 @@ export default {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
 
-* {
-  font-family: 'Lato', sans-serif;
-}
-
-
-
-
+  * {
+    font-family: 'Raleway', sans-serif;
+  }
 
 </style>
