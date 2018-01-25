@@ -23,10 +23,19 @@ export default {
 </script>
 
 <style>
+
   @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
 
   * {
     font-family: 'Raleway', sans-serif;
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    body {
+      font-size: 80%;
+    }
+
   }
 
 </style>

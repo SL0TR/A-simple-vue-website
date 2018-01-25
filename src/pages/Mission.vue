@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="page"></div>
+    <div class="page">
+      <p class="pageTitle">This Page Is Under Construction</p>
+    </div>
+    
   </div>
 </template>
 
@@ -12,12 +15,36 @@
 
 </script>
 
-<style scopped>
+<style>
 
 .page {
-  height: calc(100vh - 112px);
-  background-image: url('https://ps.w.org/under-construction-page/assets/screenshot-1.png?rev=1560794');
+  min-height: calc(100vh - 112px);
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('../assets/924.jpg');
+  
 }
+
+.pageTitle {
+  font-size: 3rem;
+  margin-top: 1rem;;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .pageTitle {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .page {
+      background-size: 100% 100%;
+
+    }
+
+  }
 
 </style>

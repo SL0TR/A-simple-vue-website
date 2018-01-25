@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page"></div>
+    <div class="fourOFour-page"></div>
   </div>
 </template>
 
@@ -14,10 +14,10 @@
 
 <style scopped>
 
-.page {
+.fourOFour-page {
   height: calc(100vh - 112px);
-  background-image: url('https://www.1and1.com/digitalguide/fileadmin/DigitalGuide/Teaser/404-not-found-t.jpg');
-  background-size: cover;
+  background-image: url('../assets/404-error.jpg');
+  background-size: 100% 120%;
 }
 
 </style>
