@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar type="dark" variant="dark" fixed="bottom" class="justify-content-around">
+    <b-navbar type="dark" variant="dark" class="justify-content-around">
       <b-nav-text>
         Address: Road# 08, House# 58, Niketon Housing Society, Gulshan-1, Dhaka- 1212.
       </b-nav-text>

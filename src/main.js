@@ -13,8 +13,7 @@ Vue.component('nav-bar', navBar)
 import footer from './components/footer.vue'
 Vue.component('footer-comp', footer)
 
-import homePage from './Home.vue'
-Vue.component('home', homePage)
+
 
 Vue.use(BootstrapVue);
 Vue.use(VueRouter)
